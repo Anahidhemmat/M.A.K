@@ -24,15 +24,29 @@ body {
   background-image: url(/img/wil-stewart-K_TbABnVzHo-unsplash.jpg);
   background-blend-mode: multiply;
   background-size: cover;
-  background-position: 50%;
   height: 88vh;
 }
 /* Home Navigation */
-.home-nav {
+
+.navbar {
   background-color: rgba(255, 255, 255, 0.26);
 }
-.home-nav-ul {
-  display: flex;
+.navbar-toggler {
+  border: none !important;
+  border-radius: none !important;
+}
+.navbar-btn {
+  background-color: transparent;
+  padding: 0.25rem;
+  font-size: xx-large;
+  color: #fff;
+}
+.navbar-brand {
+  margin-right: auto;
+  margin-left: 0.7rem;
+}
+.navbar-nav {
+  margin-left: auto;
 }
 .nav-link-home {
   color: #fff;
